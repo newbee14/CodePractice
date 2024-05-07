@@ -20,6 +20,7 @@ public class ExecutorServiceExample {
         while(!executor.getQueue().isEmpty()){
             System.out.println("executor.getQueue() = " + executor.getQueue().size());
         }
+        executor.shutdown();
     }
 }
 
