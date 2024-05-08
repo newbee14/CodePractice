@@ -68,6 +68,10 @@ class ConcurrentLinkedList<T> {
         }
         System.out.println();
     }
+
+    public Node getHead() {
+        return head.get();
+    }
 }
 
 public class Question2 {
